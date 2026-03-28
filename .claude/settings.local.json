@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(curl -sL https://www.lazyvim.org/configuration)",
-      "WebFetch(domain:www.lazyvim.org)",
-      "Bash(curl:*)"
-    ]
-  }
-}
