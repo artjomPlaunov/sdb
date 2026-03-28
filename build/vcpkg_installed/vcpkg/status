@@ -1,0 +1,50 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 9cddf7232af0ce86f8c1bbd012ca4e59e6720fb609826dbb731ecdf9629548be
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: c1e8ad8823dc83432fa33cc3ae7dd685da380c897cd60140eeac55b6ba854b48
+Status: install ok installed
+
+Package: catch2
+Version: 3.13.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 832098e1165c39eb4cdfd1452ad619c7a704ed15515373d45cc26720f97cdc14
+Description: A modern, C++-native, test framework for unit-tests, TDD and BDD.
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2025-05-29
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 8d74fae0f9cf5e8b29f1c66439061ba72da2656b7e015092c21d73f3bc84b356
+Status: install ok installed
+
+Package: vcpkg-make
+Version: 2026-01-01
+Depends: vcpkg-cmake-get-vars
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 85b5764d452e1578cb9e8399cd650d3ee10349005eb3ab99dcfbc58a5d55b99c
+Status: install ok installed
+
+Package: libedit
+Version: 2024-08-08
+Port-Version: 1
+Depends: vcpkg-make
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 6bb67e639e36c887b3a593b42301ca8c7da2b20ffcc27f9d67eb8a50e59c4d47
+Description: A command line editor library that provides generic line editing, history, and tokenization functions, similar to those found in GNU Readline.
+Status: install ok installed
+
